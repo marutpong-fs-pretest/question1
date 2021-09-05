@@ -1,0 +1,16 @@
+<div class="question1">
+
+    <div id="frame-1" class="">
+        <input type="text" [(ngModel)]="input1">
+    </div>
+
+    <div id="frame-2" class="">
+        <select name="input2" id="input2" [(ngModel)]="input2">
+            <option value="isPrime" selected>isPrime</option>
+            <option value="isFibonacci">isFibonacci</option>
+        </select>
+    </div>
+
+    <div id="frame-3" class="">{{ result | json }}</div>
+    
+</div>

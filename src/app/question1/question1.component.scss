@@ -1,0 +1,33 @@
+.question1 {
+    display: flex;
+    height: 100vh;
+}
+
+@media screen and (max-width: 600px) {
+    .question1 {
+        overflow-x: scroll;
+    }
+}
+
+#frame-1 {
+    min-width: 200px;
+    width: 200px;
+}
+
+#frame-2 {
+    min-width: 100px;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+
+    flex-grow: 1!important;
+
+    select {
+        max-width: 100px;
+    }
+}
+
+#frame-3 {
+    min-width: 300px;
+    width: 300px;
+}
+
